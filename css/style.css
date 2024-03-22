@@ -7,10 +7,22 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
     color: var(--primary-blue);
+}
+
+/* NAVIGATION */
+
+.main-nav__lst {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
 }
