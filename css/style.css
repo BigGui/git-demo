@@ -21,8 +21,17 @@ h1 {
 
 /* NAVIGATION */
 
+
+@media screen and (max-width: 768px) {
+    .main-nav__lst {
+        flex-direction: column;
+    }
+}
+
 .main-nav__lst {
     display: flex;
     justify-content: space-around;
     text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
